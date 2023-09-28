@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 #imagem_fundo {
-    background: url("fundo.jpg");
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQroOXfJFQx8sH39FMFzqFmGvVvcQc13-J8fw&usqp=CAU");
     height: 100%;
     text-align: center;
     background-image: cover;
