@@ -52,7 +52,7 @@ section hr { /* Define o estilo da linha */
 }
 /* --------  Header  -------- */
 header { /* Define o estilo do cabeçalho */
-    background-color: black; /* Define a cor de fundo como black */
+    background-color: rgba(0, 0, 0, 0); /* Define a cor de fundo como black */
     color: white;/* Define a cor como white */
     height: 70px;/* Define a altura como 70px */
     width: 100%;/* Define a largura como 100% */
