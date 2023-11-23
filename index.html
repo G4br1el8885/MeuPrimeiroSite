@@ -1,62 +1,179 @@
 <html>
-    <head>
-        <title>A Paz Mundial e a importância das instituições</title>
-        <link rel="stylesheet" href="estilo.css">
-    </head>
-    <body>
-        <div id="imagem_fundo">
-            <h1 id="titulo">A Paz Mundial</h1>
-            <h2 id="subtitulo">A importância das instituições para a garantia da Paz Mundial</h2>
-            <a id="acao" href="http://www.microsoft.com" target="_blanck">Começar</a>
-        </div>
-        
-        <section id="projeto" class="destaque">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/FNiuolxcLqg?si=7zsjzvxTHiDvpx5A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <p>O assunto da paz mundial é discutido desde o início das grandes civlizações, uma vez que as guerras e disputas estiveram sempre presentes no meio das sociedades. Assim sendo, com o advento da globalização, onde as nações passaram a, cada vez mais tornarem-se interconectadas e estabelecerem relações, fez-se necessária a criação das chamadas <b>Instituições Sociais</b></p>
+<!-- A tag <html> indica o início do documento HTML. -->
 
-            <p>Com sociedades mais complexas e cada vez mais consumidoras de recursos, tudo o que se visa quando se refere aos atos políticos é o lucro e a "evolução". Para tal evolução, a disputa por recursos, que podem envolver faixas de terra, acordos monetários, guerras, etc. são mais presentes que nunca, deste modo, uma pequena ameaça pode gerar guerras entre diversas nações conectadas e que possuem mesmos interesses. Por isso, sem as  Instituições Socias, o mundo correria sérios riscos. Mas afinal... </p>
+<head>
+  <!-- A tag <head> contém metadados/informações sobre o documento HTML. -->
+
+  <title>Educação 4.0 - O Futuro Hoje!</title>
+  <!-- A tag <title> define o título da página, que aparece na aba do navegador. -->
+
+  <link rel="stylesheet" href="estilo.css">
+  <!-- A tag <link> é usada para linkar um arquivo CSS externo, que contém os estilos que serão aplicados ao HTML. -->
+
+  <meta charset="utf-8"/>
+  <!-- A tag <meta> com o atributo charset="utf-8" especifica a codificação de caracteres para o documento HTML. -->
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Outra tag <meta>, que controla a viewport e a escalabilidade no dispositivos móveis. -->
+</head>
+
+<body>
+  <!-- A tag <body> contém o conteúdo principal da página que será exibido no navegador. -->
+
+  <!--MENU-->
+  <header>
+    <!-- A tag <header> é usada para definir um cabeçalho para um documento ou seção. -->
+    <div id="logo"><img src="img/logo.png" alt="Logo - Meu Site"/></div> <!-- A tag <div> com um id é um container que pode ser estilizado com CSS. A tag <img> é usada para inserir uma imagem. -->
+
+    <ul class="menu">
+      <!-- A tag <ul> define uma lista não ordenada e o atributo class permite que seja estilizada com CSS. -->
+      <li><a href="#menu1">Projeto</a></li>
+      <li><a href="#menu2">Educação 4.0</a></li>
+      <li><a href="#menu3">Locais de estudos</a></li>
+      <li><a href="#menu4">Sobre mim</a></li>
+      <!-- A tag <li> é usada para cada item da lista e a tag <a> cria um hyperlink. -->
+      <!-- As demais tags <li> e <a> seguem o mesmo padrão. -->
+    </ul>
+  </header>
+
+  <!--CAPA-->
+  <figure id="capa" class="centro">
+    <!-- A tag <figure> é usada para marcar conteúdo independente como imagens, diagramas, etc. Pode ser estilizada com CSS através do id e da classe. -->
+    <div class="imagem_fundo">
+      <!-- Um <div> com classe para estilização de fundo da imagem. -->
+      <h1 class="titulo">Educação 4.0</h1>
+      <!-- A tag <h1> é usada para o título principal da seção e pode ser estilizada com a classe "titulo". -->
+      <h2 class="titulo">O Futuro Hoje!</h2>
+      <!-- A tag <h2> é para títulos de segundo nível e também está estilizada. -->
+      <a class="cta" href="#menu1">COMEÇAR</a>
+      <!-- A tag <a> aqui é usada como um botão de chamada para ação (Call To Action - CTA), levando o usuário para a seção do projeto. -->
+    </div>
+  </figure>
+
+  <!--PROJETO-->
+  <!-- As tags <section> definem seções do documento e são identificadas pelo id. As classes "coluna" e "dois" seriam usadas para estilizar as colunas e o layout. -->
+  <!-- A tag <iframe> é usada para embutir outro documento dentro do atual, neste caso, um vídeo do YouTube. -->
+  <!-- As tags <h1>, <hr> (linha horizontal), e <p> (parágrafo) são usadas para estruturar textualmente a seção com títulos e texto, e podem ser estilizadas com classes. -->
+
+  <section id="menu1" class="cor_fundo"> 
+    <!-- A classe "cor_fundo" é usada para estilizar o fundo da seção. -->
+    <div class="coluna dois">
+      <!-- A classe "dois" é usada para dividir a seção em duas colunas. -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/htHKxLMIWrY?si=IK6u2nngKibDtAMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    <div class="coluna dois">
+      <h1 class="centro" >Projeto</h1>
+      <!-- A tag <h1> é usada para o título principal da seção e pode ser estilizada com a classe "centro". -->
+      <hr>
+      <p class="justificado">Neste site, temos o compromisso de contribuir para a realização do Objetivo de Desenvolvimento Sustentável 4 da ONU: "Assegurar a educação inclusiva, equitativa e de qualidade, e promover oportunidades de aprendizagem ao longo da vida para todos".</p>
+      <p class="justificado"> O "Educação 4.0: O Futuro Hoje!", tem como objetivo fornecer informações e sugestões de locais de formação continuada e de aprendizagem e, também, de políticas públicas que visam aprimorar a qualidade da educação. Acreditamos que a educação é a chave para um futuro melhor, e é por isso que nos dedicamos a compartilhar ideias inovadoras e práticas comprovadas para transformar o sistema educacional.</p>
+      <p class="justificado"> Queremos um mundo onde a educação de qualidade seja acessível a todos, independentemente de sua origem, gênero ou necessidades especiais. Acreditamos que a educação de qualidade não apenas enriquece as vidas individuais, mas também impulsiona o desenvolvimento social, econômico e sustentável das comunidades e nações.</p>
+    </div>
+  </section>
+  <!--SELEÇÃO-->
+  <!-- Segue o mesmo padrão da seção anterior, mas agora com a classe "quatro" provavelmente indicando uma divisão de quatro colunas. -->
+  <!-- A tag <img> é usada novamente para inserir imagens que representam cada categoria de reciclagem. -->
+
+  <section id="menu2">
+    <h1>Educação 4.0</h1>
+    <hr>
+    <div class="coluna quatro">
+      <!-- A classe "quatro" é usada para dividir a seção em quatro colunas. -->
+      <div class="icone">
+        <!-- A classe "icone" é usada para estilizar o ícone. -->
+        <img src="img/escola.png" alt="escola"/>
+        <!-- A tag <img> é usada para inserir uma imagem. -->
+      </div>
+      <h1 class="centro">Colégios</h1>
+      <p class="centro">A diversidade é uma riqueza na educação. Políticas que promovam a inclusão de temas como diversidade cultural, gênero e inclusão de estudantes com necessidades especiais no currículo podem criar um ambiente educacional mais aberto e inclusivo.</p>
+    </div>   
+    <div class="coluna quatro">
+      <!-- A tag <div> é usada para definir uma divisão ou seção no documento. -->
+      <!-- A classe "quatro" é usada para dividir a seção em quatro colunas. -->
+      <div class="icone">
+        <!-- A classe "icone" é usada para estilizar o ícone. -->
+        <img src="img/professora.png" alt="professor(a)"/>
+      </div>
+      <h1 class="centro">Professores</h1>
+      <p class="centro">Investir na formação e valorização dos professores é essencial para a qualidade da educação. Políticas de capacitação contínua, salários justos e condições de trabalho adequadas são fundamentais para motivar os educadores e, por consequência, elevar o nível de ensino.</p>
+    </div>
+    <div class="coluna quatro">
+      <div class="icone">
+        <img src="img/tecnologiaEduc.gif" alt="Metais"/>
+      </div>
+      <h1 class="centro">Tecnologia</h1>
+      <p class="centro">Acesso Universal à Tecnologia Educacional: Garantir que todos os estudantes tenham acesso à tecnologia é essencial para prepará-los para o mundo moderno. Políticas públicas que promovam a equidade digital nas escolas podem revolucionar o ensino, proporcionando oportunidades iguais para todos.</p>
+    </div>
+    <div class="coluna quatro">
+      <div class="icone">
+        <img src="img/comunitario.png" alt="comunitário"/>
+      </div>
+      <h1 class="centro">Parcerias</h1>
+      <p class="centro">Colaborar com a comunidade local pode enriquecer a experiência educacional. Políticas que incentivem parcerias com empresas, instituições culturais e organizações locais podem enriquecer o ambiente educacional, trazendo o mundo real para a sala de aula.</p>
+    </div>
+  </section>
+
+  <!--EDUCAÇÃO DE QUALIDADE-->
+  <!-- Semelhante às seções anteriores, com uma lista de locais de ecopontos. -->
+
+  <section id="menu3" class="cor_fundo">
+    <!--A tag section é usada para definir seções do documento e é identificada pelo id. A classe "cor_fundo" é usada para estilizar o fundo da seção. -->
+    <h1>EDUCAÇÃO DE QUALIDADE</h1>
+    <hr>
+    <h2>Veja onde podemos buscar ensino e aprendizagem de qualidade e formação continuada.</h2>
+    <div class="coluna tres fundo">
+      <!-- A classe "tres" é usada para dividir a seção em três colunas. A classe "fundo" é usada para estilizar o fundo da seção. -->
+      <img src="img/cepista.jpg" alt="alunos estudando" />
+      <h1 class="centro">CEPI SANTA LUZIA</h1>
+      <p class="centro">R. X-27 - Sítios Santa Luzia, Aparecida de Goiânia</p>
+    </div>
+    <div class="coluna tres fundo">
+      <img src="img/fundacaoBradesco.png" alt="logo fundação bradesco" />
+      <h1 class="centro">Escola Virtual</h1>
+      <p class="centro"><a href="https://www.ev.org.br/" title="Escola Virtual - Fundação Bradesco">Escola Virtual - Fundação Bradesco</a></p>
+    </div>
+    <div class="coluna tres fundo">
+      <img src="img/khanAcademy.png" alt="Khan Academy" />
+      <h1 class="centro">Khan Academy</h1>
+      <p class="centro"><a href="https://pt.khanacademy.org" title="Khan Academy">khanacademy.org/</a></p>
+    </div>
+  </section>
+
+  <!--SOBRE-->
+  <!-- Seção sobre o criador do site, com uma divisão de duas colunas, uma para texto e outra para imagem. -->
+
+  <section id="menu4" class="cor_fundo">
+    <!-- A tag section é usada para definir seções do documento e é identificada pelo id. O id="menu4" é usado para criar um link para esta seção no menu. A classe "cor_fundo" é usada para estilizar o fundo da seção. -->
+    <div class="coluna dois">
+      <h1 class="centro" >Sobre mim</h1>
+      <p class="centro" >Ujeverson Tavares Sampaio</p>
+      <p class="justificado">Licenciado em Matemática. Especialista em Docência Universitária e Desenvolvimento para Dispositivos Móveis e Internet. Mestre em Economia do Setor Público - UnB.
+      Docente dos cursos Superiores e de Pós-Graduações na Faculdade SENAI Fatesg e vencedor do prêmio docente TOP 10 SESI/SENAI 2021. Prof de matemática, análise de dados e IAs generativas para estudantes do ensino médio. Prof conteudista, desenvolvimento de materiais pedagógicos, consultor e formação de professores para o uso de mídias digitais. 
+      Conhecimento em Análise de Dados, Econometria e Business Intelligence. </p>
+      <p>Liderança,Comunicação,Flexibilidade, Adaptação, Criatividade, Inovação, Trabalho em Equipe, Colaboração, Empatia e Sensibilidade Interpessoal.</p>
+      <p>Excel, Power BI, SQL, Python</p>
+    </div>
     
-        </section>
-        
-        <section id="objetivos principais">
-            <h3>O Que São Instituições sociais? </h3>
-            
-            <img class="icone" src="presidentes_img.webp" alt="Papéis" />
-            <h4>Qual sua utilidade?</h4>
-            <p></p>
-            
-            <img class="icone" src="img/send.png" alt="Vidros" />
-            <h4>Conhecimento Matemático</h4>
-            <p>O vidro pode ser infinitamente reciclado e praticamente todos os tipos são recicláveis, exceto lâmpadas, cristais, espelhos, vidros temperados, louça, cerâmica, porcelana, óculos, pirex e vidros especiais, como tampo de forno e micro-ondas.</p>
-            
-            <img class="icone" src="img/money.png" alt="Metais" />
-            <h4>Professor(a)</h4>
-            <p>São recicláveis: enlatados, ferragens, arames, chapas, canos, pregos, parafusos, cobre e alumínio. Com curiosidade, uma única lata de alumínio economiza energia suficiente para manter uma TV ligada durante três horas.</p>
-            
-            <img class="icone" src="img/work.png" alt="Plásticos" />
-            <h4>Ensino de qualidade</h4>
-            <p>Praticamente todo tipo de plástico é reciclável. Não se recicla: adesivos, acrílico e cabos de panelas. Saiba que para cada 100 toneladas de plástico reciclado economiza-se 1 tonelada de petróleo.</p>
-        </section>
+    <div class="coluna duas">
+      <img class="imagem_sobre" src="img/ujeverson3.jpeg" alt="Homem em pé em frente a um notebook e tv" />
+  </div>
+  </section>
 
-        <section id="polos" class="destaque">
-            <h3>POLOS DE ENSINO</h3>
-            <p>Veja onde você pode encontrar cursos.</p>
-            <img class="imgeco" src="img/img1.jpg" alt="Onda" />
-            <h4>CEPI SANTA LUZIA</h4>
-            <p>Santa Luzia</p>
-            <img class="imgeco" src="img/img2.jpg" alt="Tartaruga" />
-            <h4>SENAI GO</h4>
-            <p>Rua Francisco Vieira, 198, em frente à Padaria Moreira</p>
-            <img class="imgeco" src="img/img3.jpg" alt="Praia" />
-            <h4>UDEMY</h4>
-            <p>UDEMY PONTO COM</p>
-        </section>
-        
-        <section id="sobre" class="destaque">
-            <h3>Sobre mim</h3>
-            <p>Ujeverson Tavares Sampaio</p>
-            <p>Aenean porta, justo non aliquet interdum, risus nibh fringilla orci, nec lacinia justo sem a lorem. Pellentesque sagittis finibus risus, vitae viverra metus commodo quis. In sed elit cursus, tincidunt lectus vel, mattis dolor. Donec vel libero lobortis, cursus turpis a, scelerisque lorem.</p>
-            <img class="imgeco" src="img/eu.jpg" alt="Prof Ujeverson Tavares Sampaio" />
-        </section>
-    </body>
+  <!--RODAPÉ-->
+    
+    <!-- Segue o padrão das colunas anteriores para disposição de informações e créditos. -->
+  
+  <footer>
+    <!-- A tag <footer> é usada para definir o rodapé do documento ou seção. -->
+    <div class="coluna dois">
+      <h1 class="esquerda">Meu primeiro site</h1>
+      <p>Projeto desenvolvido durante o curso Meu primeiro site, promovido pela Junior Achievement Brasil e Microsoft.</p>
+    </div>
+    <div class="coluna dois">
+      <h1>Créditos</h1>
+      <p>Ícones de Freepik, logo de Logomark, imagens de ____</p>
+      <p><a href="https://www.flaticon.com/free-icons/community-manager" title="community manager icons">Community manager icons created by Vectors Tank - Flaticon</a></p>
+    </div>
+  </footer>
+</body>
 </html>
